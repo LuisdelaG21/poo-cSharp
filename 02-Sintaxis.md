@@ -50,7 +50,7 @@ Output:
 ```  
 >Este recurso hace que la concatenación de cadenas sea más legible que usar +  
 
-4. Combinacion de **Interpolación de cadena ($)** y **cadena literal (@)**. Podemos combinar ambas para obtener cadenas que permitan interpolación y sean literales al mismo tiempo:  
+4. Combinación de **Interpolación de cadena ($)** y **cadena literal (@)**. Podemos combinar ambas para obtener cadenas que permitan interpolación y sean literales al mismo tiempo:  
 ```c#
 string name = "Luis";
 string message = @$"Hola {name} 
@@ -69,7 +69,7 @@ Output:
 ```  
 > Para colocar comillas dentro de un string normal o con interpolación de cadenas usamos \\", para las cadenas literales simplemente duplicamos los símbolos """". Las comillas simples ' ' no suelen dar problemas.  
 
-> Para el caso de los **backslash**, usamos soble diagonal \\\ o mejor aún, con el recurso de cadenas literales @, simplemente la colocamos una sola vez \.
+> Para el caso de los **backslash**, usamos doble diagonal \\\ o mejor aún, con el recurso de cadenas literales @, simplemente la colocamos una sola vez \.
 
 
 
