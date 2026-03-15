@@ -93,8 +93,24 @@ C# también ofrece dos modificadores compuestos:
 
 ## Diagrama  
 
-![Modificadores de acceso](./Resources/Modificadores%20de%20acceso.png)  
-_Aclaración: para el caso de protected, aplica para clases.cs del mismo proyecto siempre y cuando sean hijas de la clase original con un atributo **protected**_.
+![Modificadores de acceso](./Resources/modificadores_tabla_comparativa.png)  
+
+![Condiciones modificadores](./Resources/modificadores_condiciones.png)  
+
+**Más restrictivos** → **más abiertos**:
+private → private protected → protected → internal → protected internal → public.  
+
+Los dos casos que más confunden son los combinados: **protected internal** usa lógica OR (mismo ensamblado o subclase), mientras que **private protected** usa lógica AND (mismo ensamblado y subclase). Ese detalle marca una diferencia enorme en diseños de librerías.  
+
+### Aclaraciones:  
+
+Subclase misma DLL — la clase que hereda (**ClaseB : ClaseA**) está compilada en el **mismo proyecto** que la clase base. Por ejemplo, ClaseA y ClaseB viven ambas en MiLibreria.dll.  
+
+Subclase otra DLL — la clase derivada está en un **proyecto distinto** que referencia al primero. Por ejemplo, **ClaseA** está en MiLibreria.dll y **ClaseB : ClaseA** está en MiApp.exe o OtraLibreria.dll.  
+
+La distinción importa porque modificadores como **protected** permiten lo primero pero restringen lo segundo — y private **protected** directamente bloquea el acceso si la subclase está en otra DLL, aunque herede correctamente.  
+
+> En la práctica, "misma DLL" = mismo proyecto de Visual Studio / mismo < Project > en el .sln. "Otra DLL" = proyecto separado que agrega una referencia (< ProjectReference > o NuGet).
 
 ## Impacto en los pilares de POO  
 
