@@ -217,7 +217,7 @@ var (numero, total, cliente) = factura; // desempaca en variables separadas
 ```
 > Esto funciona porque la sintaxis posicional genera automáticamente un método **Deconstruct**. Con la sintaxis de bloque { } tendrías que escribir ese método tú mismo.  
 
-### IMPORTANTE: la sintaxis poisicional () en la declaración es exclusiva de **record**. Pero cada tipo tuene su propia forma de lograr algo similar.
+### IMPORTANTE: la sintaxis poisicional () en la declaración es exclusiva de **record**. Pero cada tipo tiene su propia forma de lograr algo similar.
  
 ---
 
