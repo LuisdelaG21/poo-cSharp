@@ -2,7 +2,7 @@
 
 El lenguaje C# tiene varios recursos y funciones integradas que son muy útiles de aprender para mejorar nuestro nivel de programación.
 
-### 1. Modificadores de Strings  
+### Modificadores de Strings  
 1. Un string puede tener varios argumentos "concatenados". A esto se le conoce como **concatenación de cadenas de caracteres**, por ejemplo:  
 ```c#
 string message = "Hola Morty" + "soy tu abuelo Rick!";
