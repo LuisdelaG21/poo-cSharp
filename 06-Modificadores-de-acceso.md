@@ -93,7 +93,8 @@ C# también ofrece dos modificadores compuestos:
 
 ## Diagrama  
 
-![Modificadores de acceso](./Resources/Modificadores%20de%20acceso.png)
+![Modificadores de acceso](./Resources/Modificadores%20de%20acceso.png)  
+_Aclaración: para el caso de protected, aplica para clases.cs del mismo proyecto siempre y cuando sean hijas de la clase original con un atributo **protected**_.
 
 ## Impacto en los pilares de POO  
 
