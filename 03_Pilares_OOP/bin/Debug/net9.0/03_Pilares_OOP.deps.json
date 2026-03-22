@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "03_Pilares_OOP/1.0.0": {
+        "runtime": {
+          "03_Pilares_OOP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "03_Pilares_OOP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

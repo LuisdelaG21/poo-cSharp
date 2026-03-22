@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Apple redApple = new()
+
+using PilaresOOP.Models;
+
+/* Apple redApple = new()
 {
   Name = "Red Apple",
   Color = "Red",
@@ -17,4 +20,16 @@ Console.ForegroundColor = ConsoleColor.Red;
 Console.WriteLine(redApple.DescribeMe);
 
 Console.ForegroundColor = ConsoleColor.Green;
-Console.WriteLine(greenApple.DescribeMe);
+Console.WriteLine(greenApple.DescribeMe); */
+
+BankAccount bankAccount = new();
+// Hay dos formas de ver el balance
+var atmMessageConsult = bankAccount.GetAtmMessage();  // 1. Solo consulta
+
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine(atmMessageConsult);
+
+var atmMessage = bankAccount.Deposit(160); // 2. Haciendo un depósito
+
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine(atmMessage);

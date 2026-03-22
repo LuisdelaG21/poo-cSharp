@@ -1,3 +1,4 @@
+namespace PilaresOOP.Models;
 public class Apple : Fruit
 {
     public int NumberOfSeeds { get; set; }

@@ -1,0 +1,15 @@
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\bin\Debug\net9.0\03_Pilares_OOP.exe
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\bin\Debug\net9.0\03_Pilares_OOP.deps.json
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\bin\Debug\net9.0\03_Pilares_OOP.runtimeconfig.json
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\bin\Debug\net9.0\03_Pilares_OOP.dll
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\bin\Debug\net9.0\03_Pilares_OOP.pdb
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\03_Pilares_OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\03_Pilares_OOP.AssemblyInfoInputs.cache
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\03_Pilares_OOP.AssemblyInfo.cs
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\03_Pilares_OOP.csproj.CoreCompileInputs.cache
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\03_Pilares_OOP.sourcelink.json
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\03_Pilares_OOP.dll
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\refint\03_Pilares_OOP.dll
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\03_Pilares_OOP.pdb
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\03_Pilares_OOP.genruntimeconfig.cache
+C:\Users\Bienvenido\Desktop\POO_C#\03_Pilares_OOP\obj\Debug\net9.0\ref\03_Pilares_OOP.dll
