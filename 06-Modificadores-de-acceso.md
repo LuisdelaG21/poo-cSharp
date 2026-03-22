@@ -169,7 +169,7 @@ public class Animal
             _edad = edad; // ✅ válido desde adentro
     }
 
-    public int GetEdad() => _edad;
+    public int GetEdad => _edad;
 }
 
 var a = new Animal();
@@ -184,7 +184,7 @@ El atributo **private** sí existe en el objeto, solo que la clase decide cómo 
 
 De repente encotrarás que la declaración de un método se hace de la siguiente manera:
 ```c#
-public int GetEdad() => _edad;
+public int GetEdad => _edad;
 ```  
 Y no de la forma tradicional:
 ```c#
@@ -217,9 +217,9 @@ Cuando el método es tan simple que las llaves y el **return** son más ruido qu
     }
 
     // Con expression-bodied — más limpio
-    public string GetNombreCompleto() => _nombre + " " + _apellido;
-    public bool EsMayorDeEdad()       => _edad >= 18;
-    public void Saludar()             => Console.WriteLine("Hola, soy " + _nombre);
+    public string GetNombreCompleto => _nombre + " " + _apellido;
+    public bool EsMayorDeEdad      => _edad >= 18;
+    public void Saludar             => Console.WriteLine("Hola, soy " + _nombre);
    ```  
 
    Otro ejemplo usando propiedades y el recurso **interpolación de cadenas**:  
