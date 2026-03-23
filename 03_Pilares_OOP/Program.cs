@@ -36,7 +36,7 @@ Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine(atmMessage); */
 
 // ============================== Abstracción ================================= //
-Bicycle mountainBicycle = new()
+/* Bicycle mountainBicycle = new()
 {
   Company = "Good Bicy",
   Model = "Bicy x458",
@@ -55,4 +55,17 @@ Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine($"The vehicle named {mountainBicycle.Model} has {mountainBicycle.GetNumberOfTyres()} tyre(s)");
 
 Console.ForegroundColor = ConsoleColor.Blue;
-Console.WriteLine($"The vehicle named {modernCar.Model} has {modernCar.GetNumberOfTyres()} tyre(s)");
+Console.WriteLine($"The vehicle named {modernCar.Model} has {modernCar.GetNumberOfTyres()} tyre(s)"); */
+
+// ============================== Polimorfismo ================================ //
+
+//Ejemplo polimorfismo estático (en tiempo de compilación)
+Calculator calculator = new();
+var sumInt = calculator.AddNumbers(7, 3);
+var sumDouble = calculator.AddNumbers(12.32, 5.45);
+
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine($"La suma de los números enteros es {sumInt}");
+
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine($"La suma de los números doubles es {sumDouble}");

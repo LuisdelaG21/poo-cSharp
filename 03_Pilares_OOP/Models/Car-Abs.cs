@@ -9,6 +9,7 @@ public class Car : Vehicle
     public int FrontTyres { get; set; }
     public int BackTyres { get; set; }
 
+    //Ejemplo de polimorfismo dinámico
     public override int GetNumberOfTyres() // Otra implementación del método abstracto de la clase Vehicle{}
     {
         return FrontTyres + BackTyres;

@@ -8,7 +8,8 @@ public class Bicycle : Vehicle
     public string Model { get; set; } = "";
     public int NumberOfTyres { get; set; }
 
-    public override int GetNumberOfTyres() // Reescritura o sobreescritura del método de la clase abstracta Vehicle{}
+    //Ejemplo polimorfismo dinámico (en tiempo de ejecución)
+    public override int GetNumberOfTyres() //  Sobreescritura  del método de la clase abstracta Vehicle{}, override = anular.
     {
         return NumberOfTyres;
     }   

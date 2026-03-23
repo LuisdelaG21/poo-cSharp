@@ -1,5 +1,12 @@
 # Abastracción
 
+La abstracción consiste en mostrar solo lo necesario de un objeto y ocultar los detalles internos de cómo funciona.
+
+Es decir:
+
++ El usuario usa el objeto
++ Pero no necesita saber cómo está hecho por dentro
+
 Significa que no tiene una instancia en la realidad, pero existe como idea.
 Es algo que no tiene una implementación real, pero que existe como idea.
 
@@ -8,6 +15,13 @@ Es algo que no tiene una implementación real, pero que existe como idea.
 Son clases que no tienen **instancias**; se pueden implementar, pero, las clases que se implementan, también implementarán las propiedades y métodos que contienen.
 
 En otras palabras, una clase abstracta no esta hecha para instanciar objetos, sino para ser el padre de varias clases hijas por medio de la herencia. Mismas que obtienen propiedades en común.  
+
+Una clase abstracta es una clase que:
+
++ No se puede instanciar
++ Sirve como base
++ Define comportamiento general
++ Obliga a las clases hijas a implementar cosas   
 
 ![Abastraccion](./Resources/Abstraccion.png)  
 
