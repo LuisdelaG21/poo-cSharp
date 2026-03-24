@@ -5,6 +5,9 @@ A continuación se muestra el Query de la base de datos que se utiliza para el p
 Esta base de datos fue creada en SQL Server 2025.
 
 ```sql
+    Create Database DbTest
+
+    Use DbTest
     Create Table Autores
     (
         Id int Identity (1,1), --El identificador inicia en 1 y se incrementa en 1 ---
