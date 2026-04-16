@@ -10,7 +10,7 @@ Saldo --> es otra manera de escribir un atributo no privado (mayúscula al inici
 **Namespace**: Es un contenedor lógico utilizado para organizar clases, interfaces, estructuras y enumeraciones relacionadas. Permite agrupar las clases en uno o varios ensamblajes.
 
 ```c#
-    namespace PilaresOPP.Models;
+    namespace PilaresOOP.Models;
 ```
 
 + Por lo general, sigue la jerarquía de carpetas del proyecto (Proyecto.Carpeta). En este caso, indica que el archivo pertenece a la carpeta Models dentro del proyecto PilaresOOP.  
