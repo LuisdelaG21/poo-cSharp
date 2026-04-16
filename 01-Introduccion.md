@@ -31,24 +31,25 @@ Una clase tiene:
 
 Si estamos trabajando con VS Code para este editor de código es necesario instalar la **base del Lenguaje C#** y el **Kit Dev**, ambas de la empresa Microsoft.  
 
-Una vez en cosola podemos ejecutar:
+Una vez en consola podemos ejecutar:
 ``` PowerShell
 $ dotnet new console -o "Nombre_Projecto"
 #Para crear un proyecto .NET de C# en este editor 
 ```  
-Observaremos un programa principal llamado **Program.css** en donde tendremos un "Hello, World!". *Viajamos a la ruta del proyecto recién creado* y ejecutamos:
+Observaremos un programa principal llamado **Program.cs** en donde tendremos un "Hello, World!". *Viajamos a la ruta del proyecto recién creado* y ejecutamos:
 ```PowerShell
 $ dotnet run
 #Para ejecutar el código
 ```  
 
-### Algunos pluggings recomendadas:  
+### Algunos pluggings recomendados:  
 
 + C# y Kit Dev C# de Microsoft
 + .NET Install Tool (extensión para trabajar con .NET).
-+ Avtivitus Bar, para cambiar la vista de la barra de herramientas lateral.
++ Activitus Bar, para cambiar la vista de la barra de herramientas lateral.
 + Code Spell Checker, que sirve como un corrector ortográfico al momento de escribir cualquier palabra.
 + vscode-icons, para tener un mejor estilo de iconos en carpetas y archivos.
++ prettier para formatear el código usando ALT + SHIFT + F.
 
 
 
